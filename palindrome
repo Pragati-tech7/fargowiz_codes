@@ -1,0 +1,7 @@
+# define a function with def keyword
+def is_palindrome(num):
+    num_str = str(num)
+    return num_str == num_str[::-1]#reverse the string
+# check if palindrome or not
+print(is_palindrome(12321)) 
+print(is_palindrome(1451)) 
